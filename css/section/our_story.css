@@ -1,0 +1,36 @@
+.our-story{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px 20px;
+    height: auto;
+}
+
+.our-story .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.story-image img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.story-content{
+    max-width: 500px;
+    padding: 50px 20px;
+}
+
+.story-content h2{
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+.story-content p{
+    line-height: 1.6;
+    margin-bottom: 30px;
+}

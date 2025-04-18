@@ -1,0 +1,60 @@
+.book-release-section{
+    text-align: center;
+    background: url(../../assets/bg2.png);
+    padding: 100px 10px;
+}
+
+.section-header{
+    margin-bottom: 20px;
+}
+
+.section-header h2{
+    margin-bottom: 10px;
+    color: var(--black-color);
+}
+
+.section-header p{
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.books-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    padding: 20px 0;
+}
+
+.book-card{
+    background-color: var(--white-color);
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.book-card img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.book-card:hover{
+    transform: scale(1.05);
+}
+
+.book-card h3{
+    font-size: 1rem;
+    color: var(--black-color);
+    margin-bottom: 5px;
+}
+
+.book-card .price{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--black-color);
+}

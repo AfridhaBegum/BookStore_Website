@@ -1,0 +1,80 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: transparent;
+    font-size: Arial,sans-serif;
+}
+
+.navbar-left{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 80px;
+    margin-right: 60px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+}
+
+.nav-links li a{
+    color: var(--black-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover{
+    color: var(--main-color);
+}
+
+.nav-links.active{
+    display: flex;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.shopping-cart i{
+    font-size: 20px;
+    color: var(--black-color);
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    background-color: var(--secondary-color);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.search-bar input{
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 5px;
+    color: var(--white-color);
+}
+
+.search-bar button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--black-color);
+    font-size: 18px;
+}
+
+.menu-icon{
+    display: none;
+    font-size: 24px;
+    cursor: pointer ;
+}

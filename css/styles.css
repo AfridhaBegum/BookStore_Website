@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --main-color: #6b705c;
+    --secondary-color: #b4b7aa;
+    --p-color:  #666;
+    --gray-color: #999;
+    --white-color: #ffff;
+    --black-color: #313538;
+    --red-color: #9e2a2b;
+    --big-font: 4.5rem;
+    --heading-family: "Playfair Display",serif;
+    --p-family: "Roboto",system-ui;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--white-color);
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 4rem;
+    color: var(--main-color);
+    font-family: var(--heading-family);
+}
+
+h2{
+    font-size: 2.8rem;
+    color: var(--main-color);
+    font-family: var(--heading-family);
+}
+
+h3{
+    font-size: 1.6rem;
+    color: var(--main-color);
+    font-family: var(--heading-family);
+}
+
+p{
+    font-family: var(--p-family);
+    color: var(--black-color);
+    font-size: 1rem;
+    line-height: 2;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+.btn{
+    padding: 16px 32px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition-duration: 0.7s;
+    margin: 4px 2px;
+    text-align: center;
+    background-color: var(--red-color);
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    background-color: var(--main-color);
+}
+
+.btn2{
+    color: var(--red-color);
+    text-decoration: none;
+    transition-duration: 0.7s;
+    font-size: 1.2rem;
+}
+
+.btn2:hover{
+    color: var(--main-color);
+}
+
+.button-container{
+    position: relative;
+}
+
+.read-more-button{
+    color: var(--white-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,var(--main-color),var(--secondary-color));
+    border-radius: 4px;
+    position: relative;
+    overflow: visible;
+    transition: background 0.3s ease;
+    width: 200px;
+    height: 50px;
+}
+
+.read-more-button .arrow{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-image: url(../assets/arrow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -40px;
+    transition: transform 0.3s ease;
+}
+
+.read-more-button:hover .arrow{
+    transform: translateX(10px);
+}
+
+.hero-header{
+    background-image: url(../assets/bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+

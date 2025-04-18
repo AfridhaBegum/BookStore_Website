@@ -1,0 +1,109 @@
+.flash-sale{
+    display: flex;
+    padding: 50px;
+    background: url(../../assets/bg2.png);
+}
+
+.flash-sale-left{
+    flex: 1;
+    padding: 20px;
+}
+
+.flash-sale-left h2{
+    color: var(--black-color);
+    font-size: 24px;
+}
+
+.flash-sale-left p{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.countdown{
+    display: flex;
+    gap: 10px;
+}
+
+.time-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.time-box .number{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.time-box .label{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.flash-sale-right{
+    display: flex;
+    flex: 2;
+    gap: 15px;
+}
+
+.book{
+    display: flex;
+    background-color: var(--white-color);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    padding: 20px;
+}
+
+.book img{
+    width: 120px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+}
+
+.book-info{
+    flex: 1;
+    padding: 5px;
+    position: relative;
+}
+
+.book-info .discount{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #4CAF50;
+    color: var(--white-color);
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.book-info h3{
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: var(--black-color);
+}
+
+.book-info p{
+    font-size: 14px;
+    color: var(--black-color);
+    margin-bottom: 12px;
+}
+
+.book-info .price{
+    font-size: 16px;
+    color: var(--black-color);
+    font-weight: bold;
+}
+
+.book-info .price del{
+    font-size: 14px;
+    color: var(--gray-color);
+    margin-left: 8px;
+}
